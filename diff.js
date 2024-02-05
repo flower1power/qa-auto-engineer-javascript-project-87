@@ -14,7 +14,7 @@ const diff = (filepath1, filepath2) => {
 		Object.keys(file2Content)
 	).sort();
 
-	const diff = keysUnion
+	const difference = keysUnion
 		.map((key) => {
 			if (!_.has(file2Content, key)) {
 				return `  - ${key}: ${file1Content[key]}`;
@@ -29,7 +29,7 @@ const diff = (filepath1, filepath2) => {
 		})
 		.join('\n');
 
-	return `{\n${diff}\n}`;
+	return `{\n${difference}\n}`;
 };
 
 export default diff;

@@ -9,7 +9,7 @@ program
 	.argument('<filepath2>', 'path to second config file')
 	.option('-f, --format <type>', 'output format')
 	.helpOption('-h, --help', 'output usage information')
-	.action((filepath1, filepath2, options) => {
+	.action((filepath1, filepath2) => {
 		const result = diff(filepath1, filepath2);
 		console.log(result);
 	});

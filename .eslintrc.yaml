@@ -1,9 +1,11 @@
-# .eslintrc.yaml
 extends:
   - airbnb-base
+  - plugin:prettier/recommended
 
 plugins:
   - import
+  - jest
+  - prettier
 
 env:
   node: true
@@ -17,4 +19,4 @@ rules:
     - error
     - ignorePackages
     - js: always
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  no-underscore-dangle: [ 2, { "allow": [ "__filename", "__dirname" ] } ]
