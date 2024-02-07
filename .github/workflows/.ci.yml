@@ -1,6 +1,6 @@
 name: tests jest
 
-on: [push, pull_request]
+on: push
 
 jobs:
     test:
