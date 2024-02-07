@@ -16,4 +16,4 @@ jobs:
             - name: Run Jest Tests
               run: npm test
             - name: Run Linter
-              run: npx eslint .
+              run: make lint
