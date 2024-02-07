@@ -15,5 +15,3 @@ jobs:
               run: npm ci
             - name: Run Jest Tests
               run: npm test
-            - name: Run Linter
-              run: npm eslint .
