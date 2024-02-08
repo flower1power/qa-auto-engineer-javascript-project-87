@@ -10,3 +10,5 @@ make install
 Run tests
 make test
 
+npx gendiff file1.yaml file2.yaml
+[![asciicast](https://asciinema.org/a/VQvfGvMHhFWkltq1JMOqYjk2X.svg)](https://asciinema.org/a/VQvfGvMHhFWkltq1JMOqYjk2X)
