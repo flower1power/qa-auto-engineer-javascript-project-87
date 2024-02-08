@@ -1,10 +1,10 @@
 import path from 'path';
-import diff from '../diff.js';
+import diffJSON from '../diffJSON.js';
 
 const getFixturePath = (filename) =>
 	path.join(__dirname, '..', '__fixtures__', filename);
 
-describe('diff', () => {
+describe('diffJSON', () => {
 	test('Сравнение 2 плоских JSON', () => {
 		const filepath1 = getFixturePath('file1.json');
 		const filepath2 = getFixturePath('file2.json');
@@ -19,7 +19,7 @@ describe('diff', () => {
 			'  + verbose: true\n' +
 			'}';
 
-		expect(diff(filepath1, filepath2)).toEqual(expectedDiff);
+		expect(diffJSON(filepath1, filepath2)).toEqual(expectedDiff);
 	});
 
 	test('Сравнение одинаковых файлов', () => {
@@ -33,7 +33,7 @@ describe('diff', () => {
 			'    verbose: true\n' +
 			'}';
 
-		expect(diff(filepath1, filepath2)).toEqual(expectedDiff);
+		expect(diffJSON(filepath1, filepath2)).toEqual(expectedDiff);
 	});
 
 	test('Сравнение с пустым файлом', () => {
@@ -48,7 +48,7 @@ describe('diff', () => {
 			'  - timeout: 50\n' +
 			'}';
 
-		expect(diff(filepath1, filepath2)).toEqual(expectedDiff);
+		expect(diffJSON(filepath1, filepath2)).toEqual(expectedDiff);
 	});
 
 	test('Сравнение файлов без общих ключей', () => {
@@ -65,6 +65,6 @@ describe('diff', () => {
 			'  + user: admin\n' +
 			'}';
 
-		expect(diff(filepath1, filepath2)).toEqual(expectedDiff);
+		expect(diffJSON(filepath1, filepath2)).toEqual(expectedDiff);
 	});
 });
