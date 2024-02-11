@@ -1,21 +1,14 @@
-extends:
-    - airbnb-base
-    - plugin:prettier/recommended
-    - 'plugin:jest/recommended'
-
 plugins:
     - jest
-    - prettier
-    - js-yaml
-
 env:
+    es2021: true
     node: true
-    jest: true
-
+extends:
+    - airbnb-base
+    - 'plugin:jest/recommended'
 parserOptions:
-    ecmaVersion: latest
+    ecmaVersion: 2020
     sourceType: module
-
 rules:
     no-console: 0
     import/extensions:
