@@ -6,5 +6,8 @@
 
 
 
-#### Пример работы программы
+#### Пример работы JSON
 [![asciicast](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ.svg)](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ)
+
+#### Пример работы Yaml
+[![asciicast](https://asciinema.org/a/dt8oRVSGikPYNHu8AhV7XXGYa.svg)](https://asciinema.org/a/dt8oRVSGikPYNHu8AhV7XXGYa)
