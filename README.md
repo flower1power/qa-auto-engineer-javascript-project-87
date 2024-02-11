@@ -2,8 +2,6 @@
 
 [![Actions Status](https://github.com/flower1power/qa-auto-engineer-javascript-project-87/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/flower1power/qa-auto-engineer-javascript-project-87/actions)
 
-Setup
-make install
 
-Run tests
-make test
+#### Пример работы программы
+[![asciicast](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ.svg)](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ)
