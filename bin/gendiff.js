@@ -1,14 +1,13 @@
 #!/usr/bin/env node
-import { program } from 'commander';
+import { Command } from 'commander';
 import genDiff from '../src/index.js';
 
-program
-	.helpOption('-h, --help', 'output usage information')
-	.version('0.0.1', '-V, --version', 'output the version number')
-	.option('-f, --format [type]', 'output format')
-	.arguments('<file1> <file2>')
-	.action((file1, file2) => {
-		console.log(genDiff(file1, file2));
-	});
+const program = new Command();
 
+program.version('0.0.1', '-v, --vers', 'output the current version')
+  .option('-f, --format <type>', 'output format', 'stylish')
+  .arguments('filepath1 filepath2')
+  .action((filepath1, filepath2, options) => {
+    console.log(genDiff(filepath1, filepath2, options.format));
+  });
 program.parse();

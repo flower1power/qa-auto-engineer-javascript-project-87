@@ -1,9 +1,9 @@
 extends:
     - airbnb-base
     - plugin:prettier/recommended
+    - 'plugin:jest/recommended'
 
 plugins:
-    - import
     - jest
     - prettier
     - js-yaml
@@ -14,6 +14,7 @@ env:
 
 parserOptions:
     ecmaVersion: latest
+    sourceType: module
 
 rules:
     no-console: 0
