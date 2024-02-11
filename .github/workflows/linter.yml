@@ -1,0 +1,15 @@
+name:
+  linter
+
+on: push
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: npm install, build
+        run: make install-deps
+
+      - name: run linter
+        run: make lint
