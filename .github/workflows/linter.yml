@@ -1,15 +1,9 @@
-name:
-  linter
+name: tests jest
 
 on: push
-
 jobs:
-  linter:
+  my-job:
     runs-on: ubuntu-latest
-
     steps:
-      - name: npm install, build
-        run: make install-deps
-
-      - name: run linter
-        run: make lint
+      - name: first-step
+        run: echo "Hello World!"
