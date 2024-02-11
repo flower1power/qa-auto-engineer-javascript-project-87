@@ -10,7 +10,7 @@
 		"lint": "eslint ."
 	},
 	"keywords": [],
-	"author": "",
+	"author": "LV",
 	"license": "ISC",
 	"dependencies": {
 		"commander": "^12.0.0",
@@ -19,6 +19,10 @@
 	},
 	"bin": {
 		"gendiff": "./gendiff.js"
+	},
+	"repository": {
+		"type": "github",
+		"url": "git+https://github.com/flower1power/qa-auto-engineer-javascript-project-87"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.23.9",
