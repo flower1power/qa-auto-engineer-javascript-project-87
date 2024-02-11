@@ -1,11 +1,18 @@
 import _ from 'lodash';
 import readFile from './utils.js';
+import path from 'path';
+import parsers from './parsers.js';
 
 export default (file1, file2) => {
   const filepath1 = readFile(file1);
   const filepath2 = readFile(file2);
-  const parsedFile1 = JSON.parse(filepath1);
-  const parsedFile2 = JSON.parse(filepath2);
+
+  const format = path.extname(file1).slice(1);
+  const parserType = parsers(format);
+
+  const parsedFile1 = parserType(filepath1);
+  const parsedFile2 = parserType(filepath2);
+
 
   const keys1 = Object.keys(parsedFile1);
   const keys2 = Object.keys(parsedFile2);
