@@ -7,7 +7,13 @@
 
 
 #### Пример работы JSON
-[![asciicast](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ.svg)](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ)
+[![asciicast](https://asciinema.org/a/qdAZtmTqe1NyDvNwOn4hztHMf.svg)](https://asciinema.org/a/qdAZtmTqe1NyDvNwOn4hztHMf)
 
 #### Пример работы Yaml
-[![asciicast](https://asciinema.org/a/dt8oRVSGikPYNHu8AhV7XXGYa.svg)](https://asciinema.org/a/dt8oRVSGikPYNHu8AhV7XXGYa)
+[![asciicast](https://asciinema.org/a/suYsF3LWLnDiz0aQ76unQj5bY.svg)](https://asciinema.org/a/suYsF3LWLnDiz0aQ76unQj5bY)
+
+#### Пример работы format plain
+[![asciicast](https://asciinema.org/a/bxhenTCPIelx34ezG6FuxqDfM.svg)](https://asciinema.org/a/bxhenTCPIelx34ezG6FuxqDfM)
+
+#### Пример работы format json
+[![asciicast](https://asciinema.org/a/U52nsnYtHdMNp26k38rVWHn3f.svg)](https://asciinema.org/a/U52nsnYtHdMNp26k38rVWHn3f)
