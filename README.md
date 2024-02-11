@@ -4,11 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/31547cbfd6280eed7b3d/maintainability)](https://codeclimate.com/github/flower1power/qa-auto-engineer-javascript-project-87/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/31547cbfd6280eed7b3d/test_coverage)](https://codeclimate.com/github/flower1power/qa-auto-engineer-javascript-project-87/test_coverage)
 
-Setup
-make install
 
-Run tests
-make test
 
-npx gendiff file1.yaml file2.yaml
-[![asciicast](https://asciinema.org/a/VQvfGvMHhFWkltq1JMOqYjk2X.svg)](https://asciinema.org/a/VQvfGvMHhFWkltq1JMOqYjk2X)
+#### Пример работы программы
+[![asciicast](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ.svg)](https://asciinema.org/a/iTMI5j9dKFTCLIp5H4sLVenUJ)
